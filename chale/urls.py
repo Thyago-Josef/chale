@@ -18,5 +18,7 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
+    #rota / view responsável / nome da referencia
     path('admin/', admin.site.urls),
+    path('', views.home, name='home')
 ]
