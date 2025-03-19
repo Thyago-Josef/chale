@@ -17,6 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from app_chale_cad import views
+
 urlpatterns = [
     #rota / view responsável / nome da referencia
     path('admin/', admin.site.urls),
